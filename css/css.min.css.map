@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAA,CACA,gBAAgB,CAAE,OAAO,CAC5B",
+    "sources": [
+        "../contents/3/css.scss"
+    ],
+    "names": [],
+    "file": "css.min.css"
+}

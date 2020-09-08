@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,EAAE,AAAA,CACE,KAAK,CAAE,IAAI,CACd",
     "sources": [
-        "../test.scss"
+        "../contents/1/test.scss"
     ],
     "names": [],
     "file": "test.min.css"
