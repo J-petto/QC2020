@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,EAAE,CAAA;EACE,KAAK,EAAE,IAAI;CACd",
     "sources": [
-        "../contents/1/test.scss"
+        "../contents/1/index.scss"
     ],
     "names": [],
-    "file": "test.css"
+    "file": "index.css"
 }
