@@ -4415,6 +4415,7 @@ input[type=button].btn-block {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -10133,3 +10134,55 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.otro-blockquote{
+  flex:1;
+  font-size: 1.4em;
+  width:60%;
+  margin: 0px 5% 5% 5%;
+  font-family:Open Sans;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.otro-blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.otro-blockquote::after{
+  content: '';
+}
+
+.otro-blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+.blockquote-div{
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+}
+
+/* .content-div{
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  border: 3px solid greenyellow;
+  margin: 10 10 10 10;
+  border-radius: 0px 30px 30px 30px;
+  box-shadow: 7px 7px lightgreen;
+} */
