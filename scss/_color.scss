@@ -1,0 +1,23 @@
+//Alpa value
+$alpa: 0.3;
+
+//default color
+$sky:   #0033FF !default;
+$secret: #CC00FF !default;
+$deep:    #FF0000 !default;
+$cheeze: #FFFF00 !default;
+$ground:  #006600 !default;
+$now:   #999999 !default;
+$smoke:   #333333 !default;
+$white:  #FFFFFF !default;
+$black:  #000000 !default;
+
+//background color
+$bg-algr: rgba($green, $alpa) !default;
+
+//default color array
+$default-color:(
+    'blue': $blue,
+    'red': $red,
+    'yellow': $yellow,
+);
