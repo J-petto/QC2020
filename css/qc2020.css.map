@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AIAA,AAAA,GAAG,CAAA;EDCC,KAAK,EDDO,GAAG;ECEf,YAAY,ECDG,GAAG;EDElB,YAAY,EAAE,MAAM;EACpB,OAAO,EDFO,IAAI;CEArB",
+    "sources": [
+        "../scss/qc2020.scss",
+        "../scss/_color.scss",
+        "../scss/_variables.scss",
+        "../scss/_mixin.scss",
+        "../scss/_main.scss"
+    ],
+    "names": [],
+    "file": "qc2020.css"
+}

@@ -13,11 +13,11 @@ $white:  #FFFFFF !default;
 $black:  #000000 !default;
 
 //background color
-$bg-algr: rgba($green, $alpa) !default;
+$bg-algr: rgba($sky, $alpa) !default;
 
 //default color array
 $default-color:(
-    'blue': $blue,
-    'red': $red,
-    'yellow': $yellow,
+    'sky': $sky,
+    'deep': $deep,
+    'cheeze': $cheeze,
 );
