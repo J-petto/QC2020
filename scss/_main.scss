@@ -1,4 +1,7 @@
-.qc{
-    @include basic(7px);
-    @include edge-color($bg-algr);
+// .qc{
+//     @include basic(7px);
+// }
+
+.otro-blockquote{
+    @include blockquote($bg-algr, $now)
 }

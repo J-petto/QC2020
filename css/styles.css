@@ -10135,19 +10135,17 @@ section.resume-section .resume-section-content {
   }
 }
 
-.otro-blockquote{
-  flex:1;
+/* .otro-blockquote{
   font-size: 15pt;
   width:60%;
-  margin: 0px 5% 5% 5%;
+  margin: 0px 5% 5%;
   font-family:Open Sans;
-  color: #555555;
   padding:1.2em 30px 1.2em 75px;
   border-left:8px solid #78C0A8 ;
   line-height:1.6;
   position: relative;
   background:#EDEDED;
-}
+} */
 
 .otro-blockquote::before{
   font-family:Arial;
@@ -10169,12 +10167,6 @@ section.resume-section .resume-section-content {
   font-style: normal;
   font-weight: bold;
   margin-top:1em;
-}
-
-.blockquote-div{
-  width: 90%;
-  margin: 10px auto;
-  display: flex;
 }
 
 /* .content-div{

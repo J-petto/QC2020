@@ -1,7 +1,10 @@
-.qc {
-  width: 3em;
-  border-width: 7px;
-  border-style: dotted;
-  padding: 10em;
+.otro-blockquote {
+  width: 60%;
+  font-family: Open Sans;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid rgba(0, 51, 255, 0.3);
+  line-height: 1.6;
+  position: relative;
+  background: #CCCCCC;
 }
 /*# sourceMappingURL=qc2020.css.map */

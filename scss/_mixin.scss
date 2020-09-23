@@ -1,10 +1,20 @@
 @mixin basic($border-width) {
     width: $default-width;
     border-width: $border-width;
-    border-style: dotted;
+    border-style: $default-border;
     padding: $default-padding;
 }
 @mixin edge-color($edge-color) {
     background-color: map-get($background-color, $edge-color);
     border-color: map-get($default-color, $edge-color);
+}
+
+@mixin blockquote($left-color, $bg-color) {
+    width: $default-width;
+    font-family: $block-font;
+    padding: $block-padding;
+    border-left: $block-border-left $left-color;
+    line-height: $block-line-height;
+    position: $block-position;
+    background: $bg-color;
 }
