@@ -9,7 +9,9 @@
     border-color: map-get($default-color, $edge-color);
 }
 
-@mixin blockquote($left-color, $bg-color) {
+@mixin blockquote($left-color, $bg-color, $fontcolor) {
+    font-size:$block-fontsize;
+    color: $fontcolor;
     width: $default-width;
     font-family: $block-font;
     padding: $block-padding;
@@ -17,4 +19,14 @@
     line-height: $block-line-height;
     position: $block-position;
     background: $bg-color;
+}
+
+@mixin blockquote-before($fontcolor) {
+    font-family:$block-fontsize;
+    content: "\201C";
+    color:$fontcolor;
+    font-size: $block-fontsize-bf;
+    position: $block-position-bf;
+    left: $block-left-bf;
+    top: $block-top-bf;
 }

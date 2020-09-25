@@ -5,11 +5,15 @@ $default-margin-top: 1em;
 $default-margin-left: 1em;
 
 //block style
-$block-fontsize: 15pt;
-$block-font: Open Sans;
+$block-fontsize: 18pt;
+$block-font: 'Gugi', cursive;
 $block-width: 60%;
 $block-margin: 0px 5% 5%;
 $block-padding: 1.2em 30px 1.2em 75px;
-$block-border-left: 8px solid;
+$block-border-left: 15px solid;
 $block-line-height:1.6;
 $block-position: relative;
+$block-position-bf: absolute;
+$block-left-bf: 10px;
+$block-top-bf: -10px;
+$block-fontsize-bf: 4em;

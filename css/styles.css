@@ -10147,7 +10147,7 @@ section.resume-section .resume-section-content {
   background:#EDEDED;
 } */
 
-.otro-blockquote::before{
+/* .otro-blockquote::before{
   font-family:Arial;
   content: "\201C";
   color:#78C0A8;
@@ -10155,7 +10155,7 @@ section.resume-section .resume-section-content {
   position: absolute;
   left: 10px;
   top:-10px;
-}
+} */
 
 .otro-blockquote::after{
   content: '';

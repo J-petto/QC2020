@@ -3,5 +3,9 @@
 // }
 
 .otro-blockquote{
-    @include blockquote($bg-algr, $now)
+    @include blockquote($bg-algr, $now, $black)
+}
+
+.otro-blockquote::before{
+    @include blockquote-before($deep)
 }
