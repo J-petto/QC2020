@@ -9,6 +9,14 @@
     border-color: map-get($default-color, $edge-color);
 }
 
+@mixin root($rootfont) {
+    font-size: $rootfont;
+}
+
+@mixin h2($fontsize) {
+    font-size: $fontsize;
+}
+
 @mixin blockquote($left-color, $bg-color, $fontcolor) {
     font-size:$block-fontsize;
     color: $fontcolor;

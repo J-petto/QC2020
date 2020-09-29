@@ -9,3 +9,15 @@
 .otro-blockquote::before{
     @include blockquote-before($deep)
 }
+
+:root{
+    @include root($root)
+}
+
+h2{
+    @include h2($h2)
+}
+
+// h1,h2,h3,h4,h5,h6{
+//     @include definde
+// }
