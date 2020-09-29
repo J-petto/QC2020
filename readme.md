@@ -2,8 +2,8 @@
 ## dothom page : http://ehrdlf4565.dothome.co.kr/
 
 >### 2020.9.29.화<br>
-> em단위 개념잡기.<br>
-> _scss에 변수와 함수를 넣고 qc2020에 임포트만 한 후 index에서 클래스 적용하는 것
+> em, rem단위 개념잡기.<br>
+> root사이즈 잡고 h1~h6 사이즈 정리 후 index 적용 
 
 >### 2020.9.22.화<br>
 > SCSS 컬러네이밍 및 변수 설정 적용.<br>
