@@ -10,7 +10,7 @@
     @include blockquote-before($deep)
 }
 
-:root{
+html{
     @include root($root)
 }
 

@@ -9,8 +9,8 @@
     border-color: map-get($default-color, $edge-color);
 }
 
-@mixin root($rootfont) {
-    font-size: $rootfont;
+@mixin root($root) {
+    font-size: $root;
 }
 
 @mixin h2($fontsize) {
