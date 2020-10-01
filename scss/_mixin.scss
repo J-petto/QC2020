@@ -10,10 +10,12 @@
 }
 
 @mixin root($root) {
+    font-family: $default-font;
     font-size: $root;
 }
 
 @mixin h2($fontsize) {
+    font-family: $title-font;
     font-size: $fontsize;
 }
 
@@ -30,7 +32,7 @@
 }
 
 @mixin blockquote-before($fontcolor) {
-    font-family:$block-fontsize;
+    font-family:$block-font;
     content: "\201C";
     color:$fontcolor;
     font-size: $block-fontsize-bf;

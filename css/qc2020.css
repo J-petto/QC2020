@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 .otro-blockquote {
   font-size: 18pt;
   color: #000000;
@@ -11,7 +12,7 @@
 }
 
 .otro-blockquote::before {
-  font-family: 18pt;
+  font-family: "Gugi", cursive;
   content: "\201C";
   color: #FF0000;
   font-size: 4em;
@@ -20,11 +21,13 @@
   top: -10px;
 }
 
-:root {
+html {
+  font-family: Arial;
   font-size: 10px;
 }
 
-h2 {
-  font-size: 6rem;
+h2 .h2 {
+  font-family: Open Sans;
+  font-size: 3.5rem;
 }
 /*# sourceMappingURL=qc2020.css.map */
