@@ -3,7 +3,8 @@
 
 >### 2020.9.29.화<br>
 > em, rem단위 개념잡기.<br>
-> root사이즈 잡고 h1~h6 사이즈 정리 후 index 적용 
+> root 사이즈 잡고 h1~h6 사이즈 정리 후 index 적용<br>
+> 웹 폰트 import 후 font-family mixin -> index h2에 적용
 
 >### 2020.9.22.화<br>
 > SCSS 컬러네이밍 및 변수 설정 적용.<br>
