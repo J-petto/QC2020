@@ -14,9 +14,36 @@
     font-size: $root;
 }
 
-@mixin h2($fontsize) {
+@mixin h1() {
+    font-size: $h1-size;
+}
+
+@mixin h2() {
+    font-size: $h2-size;
+}
+
+@mixin h3() {
+    font-size: $h3-size;
+}
+
+@mixin h4() {
+    font-size: $h4-size;
+}
+
+@mixin h5() {
+    font-size: $h5-size;
+}
+
+@mixin h6() {
+    font-size: $h6-size;
+}
+
+@mixin all-h($title-font) {
+    margin-bottom: 0.5rem;
     font-family: $title-font;
-    font-size: $fontsize;
+    font-weight: $all-h-font-weight;
+    line-height: $all-h-line-height;
+    color: $black;
 }
 
 @mixin blockquote($left-color, $bg-color, $fontcolor) {
